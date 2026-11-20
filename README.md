@@ -1,48 +1,109 @@
-# ValidaPagoMovil — Releases
+# ValidaPagoMovil — Descargas
 
-Repositorio **público de distribución** de ValidaPagoMovil. Aquí se publican las APK de beta y de la versión gratuita. El código fuente, la Suite y la versión Pro viven en un repositorio privado.
+Repositorio **público de distribución**. Aquí solo viven las APK, la guía de
+instalación y el feedback. El código fuente, la Suite y la versión Pro están en
+un repositorio privado.
 
 ## Canales
 
 | Canal | Tag | Qué es |
 |---|---|---|
-| **Beta** | `v1.0.90-beta` | Beta técnica, sin anuncios, vence en 30 días. |
-| **Gratis** | `free-v...` | Versión gratuita, cuando esté publicada. |
-| **Estable** | `latest` | Última versión estable gratuita. |
+| **Beta** | `v1.0.91-beta` | Beta pública con licencia firmada, A/B/C y límites. |
+| **Gratis** | `free-v1.0.91` | Versión gratuita con anuncios internos y Modo A. |
+| **Pro** | privado | B/C, Suite, webhooks, multi-dispositivo y exportaciones. |
 
-## Descargar la beta
+## Beta 1.0.91
 
-Ve a **Releases** y descarga:
+Descarga desde **Releases**:
 
-- `ValidaPagoMovil_v1.0.90-beta.apk`
-- versionCode 79
-- SHA-256: `5371F206DF3B172BED6F0B18DC46448F34EC2FD8A2BC5DDD92B2C6BBAA24AD26`
+- `ValidaPagoMovil_v1.0.91-beta.apk`
+- versionCode **80**
+- SHA-256: `AEC2ADB32A5E011F7B9342DEB12BA8C2185FA964CB20B7CF30E18D41C0D59BEC`
+- Tamaño: 6.113.547 bytes
 
-Instala con "Instalar de todas formas" si Android muestra el aviso de origen desconocido.
-
-## Qué incluye la beta
+### Qué incluye
 
 - Captura por SMS, notificación, accesibilidad, correo y modo local.
 - Libro local cifrado y backup con contraseña.
-- Telegram A (solo avisos), B (reclamar + /buscar) y C (experimental: /ref, /micierre, huérfanos).
+- Telegram **A** (solo avisos), **B** (Reclamar + `/buscar`) y **C**
+  (experimental: `/ref`, `/micierre`, huérfanos).
 - Tasas híbridas BCV USD/EUR, Binance P2P e Inteligente.
 - Temas Azul, Negro total y Blanco.
 - UI de Cobros expandible nativa.
+- **Sin anuncios.**
+- **Licencia beta incluida y firmada** (ECDSA P-256). No tienes que importar
+  nada para probarla.
+
+### Límites de la beta
+
+- Vence el **31/01/2027 23:59 UTC**.
+- **1 dispositivo** y **1 destino de Telegram**.
+- **Sin Suite**, sin multi-dispositivo, sin webhooks y sin exportaciones
+  avanzadas.
+- C sigue siendo **experimental**: avisa del riesgo de batería y pide
+  biometría/PIN.
+- El límite de 1 dispositivo es local a la instalación. Para una licencia Pro
+  atada a tu teléfono se usa el ID de dispositivo (ver `PRO.md`).
+
+## Versión gratis 1.0.91
+
+Disponible en **Releases** con el tag `free-v1.0.91`:
+
+- `ValidaPagoMovil_v1.0.91-free.apk`
+- versionCode **80**
+- SHA-256: `5A164D9C2BADBE6FDD4915EFC30F6EF847FB1C3831A92E087A40104F248E7999`
+
+Incluye captura, libro local, Modo A, 1 dispositivo y 1 destino. Muestra
+**anuncios internos** de ValidaPagoMovil (no hay rastreadores de terceros).
+Puedes quitar los anuncios y desbloquear Pro importando una licencia `.opmlic`
+desde **Ajustes → Licencia**.
+
+## Pro
+
+La versión Pro no se publica en este repositorio. Incluye:
+
+- Modo Caja **B/C** en producción.
+- **Suite Desktop** y modo servidor.
+- **Webhooks**, multi-dispositivo y exportaciones avanzadas.
 - Sin anuncios.
+- Licencia `.opmlic` firmada, atada a tu dispositivo.
 
-## Límites de esta beta
+Precios de referencia: **$3.49/mes** o **$29.99/año**.
 
-- Vence **30 días** después de la compilación.
-- C está en periodo **experimental** y avisa del riesgo de batería.
-- El feature-gate de 1 dispositivo / sin Suite / sin webhooks todavía no está aplicado en esta beta técnica. Para la beta pública masiva se publicará `1.0.91-beta` con licencia `.opmlic` y límites.
+Cómo comprar y activar: [PRO.md](PRO.md).
 
-## Requisitos de Telegram
+## Instalar
 
-1. Crea un bot en @BotFather y copia el token.
-2. Agrega el bot al grupo/canal como administrador con "Publicar mensajes" y "Gestionar mensajes".
+1. Descarga la APK desde **Releases**.
+2. Si Android muestra el aviso de origen desconocido, elige
+   **Instalar de todas formas**.
+3. Abre la app y acepta los términos.
+4. En el primer uso elige **Usar sin servidor** (Free/Beta) o conecta tu Suite
+   si tienes Pro.
+5. Concede SMS/notificaciones/accesibilidad según la guía de la app.
+
+### Telegram
+
+1. Crea un bot en [@BotFather](https://t.me/BotFather) y copia el token.
+2. Agrega el bot al grupo/canal como administrador con **Publicar mensajes** y
+   **Gestionar mensajes**.
 3. Publica `/pago` una vez.
-4. En ValidaPagoMovil: Ajustes → Telegram → pega token → Detectar canal o grupo → Probar conexión → Guardar.
-5. Para Modo Caja, cada cajero escribe `/id` y el operador pega los IDs autorizados.
+4. En la app: **Ajustes → Telegram → pegar token → Detectar canal o grupo →
+   Probar conexión → Guardar**.
+5. Para Modo Caja, cada cajero escribe `/id` y el operador pega los IDs
+   autorizados.
+
+## Privacidad
+
+- El libro local vive cifrado con Android Keystore.
+- `allowBackup=false`: Android no sube el libro a la nube.
+- El token del bot se guarda cifrado.
+- Los logs se sanean (teléfonos, cédulas, OTP, tokens).
+- Telegram/WhatsApp reciben el teléfono enmascarado, monto y referencia; no
+  reciben el libro completo.
+- La versión gratis usa anuncios internos, sin SDK de terceros.
+
+Más detalle: [PRIVACY.md](PRIVACY.md).
 
 ## Feedback
 
@@ -53,10 +114,4 @@ Abre un issue en este repositorio con:
 - qué pasó,
 - captura o log de **Ajustes → Avanzado → Copiar último error**.
 
-## Licencia y versiones
-
-- **Beta:** gratis, sin anuncios, con vencimiento.
-- **Gratis:** captura y libro local, 1 dispositivo, 1 destino, Modo A.
-- **Pro:** $3.49/mes · $29.99/año — B/C, multidispositivo, Suite, webhooks y exportaciones. Se entrega por repositorio/release privado o licencia.
-
-Este repositorio no contiene el código fuente ni la Suite.
+No publiques tokens, cédulas, teléfonos completos ni referencias reales.
