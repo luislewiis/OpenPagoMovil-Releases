@@ -1,17 +1,26 @@
-# ValidaPagoMovil — Beta cerrada
+# ValidaPagoMovil — Releases
 
-Beta de **ValidaPagoMovil** para probar captura de Pago Móvil, conciliación local y Modo Caja de Telegram.
+Repositorio **público de distribución** de ValidaPagoMovil. Aquí se publican las APK de beta y de la versión gratuita. El código fuente, la Suite y la versión Pro viven en un repositorio privado.
 
-## Descargar
+## Canales
+
+| Canal | Tag | Qué es |
+|---|---|---|
+| **Beta** | `v1.0.90-beta` | Beta técnica, sin anuncios, vence en 30 días. |
+| **Gratis** | `free-v...` | Versión gratuita, cuando esté publicada. |
+| **Estable** | `latest` | Última versión estable gratuita. |
+
+## Descargar la beta
 
 Ve a **Releases** y descarga:
 
 - `ValidaPagoMovil_v1.0.90-beta.apk`
+- versionCode 79
 - SHA-256: `5371F206DF3B172BED6F0B18DC46448F34EC2FD8A2BC5DDD92B2C6BBAA24AD26`
 
 Instala con "Instalar de todas formas" si Android muestra el aviso de origen desconocido.
 
-## Qué incluye esta beta
+## Qué incluye la beta
 
 - Captura por SMS, notificación, accesibilidad, correo y modo local.
 - Libro local cifrado y backup con contraseña.
@@ -21,11 +30,11 @@ Instala con "Instalar de todas formas" si Android muestra el aviso de origen des
 - UI de Cobros expandible nativa.
 - Sin anuncios.
 
-## Límites de la beta
+## Límites de esta beta
 
 - Vence **30 días** después de la compilación.
 - C está en periodo **experimental** y avisa del riesgo de batería.
-- El feature-gate de 1 dispositivo / sin Suite / sin webhooks todavía no está aplicado en esta beta técnica.
+- El feature-gate de 1 dispositivo / sin Suite / sin webhooks todavía no está aplicado en esta beta técnica. Para la beta pública masiva se publicará `1.0.91-beta` con licencia `.opmlic` y límites.
 
 ## Requisitos de Telegram
 
@@ -48,6 +57,6 @@ Abre un issue en este repositorio con:
 
 - **Beta:** gratis, sin anuncios, con vencimiento.
 - **Gratis:** captura y libro local, 1 dispositivo, 1 destino, Modo A.
-- **Pro:** $3.49/mes · $29.99/año — B/C, multidispositivo, Suite, webhooks y exportaciones.
+- **Pro:** $3.49/mes · $29.99/año — B/C, multidispositivo, Suite, webhooks y exportaciones. Se entrega por repositorio/release privado o licencia.
 
-Este repositorio es solo de distribución de la beta; no contiene el código fuente.
+Este repositorio no contiene el código fuente ni la Suite.
