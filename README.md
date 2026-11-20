@@ -13,6 +13,12 @@ un repositorio privado.
 | **Gratis** | `free-v1.0.91` | Versión gratuita con anuncios internos y Modo A. |
 | **Pro** | privado | B/C, Suite, webhooks, multi-dispositivo y exportaciones. |
 
+## Descarga directa
+
+- **Beta 1.0.91:** https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/v1.0.91-beta/ValidaPagoMovil_v1.0.91-beta.apk
+- **Gratis 1.0.91:** https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/free-v1.0.91/ValidaPagoMovil_v1.0.91-free.apk
+- **Pro:** se entrega por release privado/licencia (ver PRO.md).
+
 ## Beta 1.0.91
 
 Descarga desde **Releases**:
