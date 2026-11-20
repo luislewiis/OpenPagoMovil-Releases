@@ -1,3 +1,4 @@
+successfully downloaded text file (SHA: 2709997666631a4b487fab6abf0a8d0bba219ab3)
 # ValidaPagoMovil — Descargas
 
 Repositorio **público de distribución**. Aquí solo viven las APK, la guía de
@@ -18,7 +19,7 @@ Descarga desde **Releases**:
 
 - `ValidaPagoMovil_v1.0.91-beta.apk`
 - versionCode **80**
-- SHA-256: `AEC2ADB32A5E011F7B9342DEB12BA8C2185FA964CB20B7CF30E18D41C0D59BEC`
+- SHA-256: `4FD6B5A44349408231A3F698CCE542BEDC8A70A416547CBA276244FFFB8AC053`
 - Tamaño: 6.113.547 bytes
 
 ### Qué incluye
@@ -51,7 +52,7 @@ Disponible en **Releases** con el tag `free-v1.0.91`:
 
 - `ValidaPagoMovil_v1.0.91-free.apk`
 - versionCode **80**
-- SHA-256: `5A164D9C2BADBE6FDD4915EFC30F6EF847FB1C3831A92E087A40104F248E7999`
+- SHA-256: `F37C0BF82B000D8547D2798F54CEB1FAFFC18D6DD8234E0F6E42E73311A92705`
 
 Incluye captura, libro local, Modo A, 1 dispositivo y 1 destino. Muestra
 **anuncios internos** de ValidaPagoMovil (no hay rastreadores de terceros).
