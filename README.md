@@ -29,7 +29,7 @@ Descarga desde **Releases**:
 
 - `ValidaPagoMovil_v1.0.91-beta.apk`
 - versionCode **82**
-- SHA-256: `ECCC2D3495C7A27D92E8C19F6936A178BB8CB1F5F3DA4BD3FA3EACBE14ED97E8`
+- SHA-256: `4796178358C7059FF9EE076B6306F259DE660BAD65AEBD72089C8DA87A30F75B`
 - Tamaño: 5.934.623 bytes
 
 ### Qué incluye
@@ -62,7 +62,7 @@ Disponible en **Releases** con el tag `free-v1.0.91`:
 
 - `ValidaPagoMovil_v1.0.91-free.apk`
 - versionCode **82**
-- SHA-256: `4CE01A6B7FFB13EE4EA577AFDF684BB0EDE0E6F3842575CD8CC52AA3185D43B5`
+- SHA-256: `A65D8F1CA98095237882F547B1CF7A5BB2752441910137D090525C8EE3D8C340`
 
 Incluye captura, libro local, Modo A, 1 dispositivo y 1 destino. Muestra
 **anuncios internos** de ValidaPagoMovil (no hay rastreadores de terceros).
