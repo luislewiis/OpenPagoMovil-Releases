@@ -1,22 +1,22 @@
 {
   "apk": "1.0.91",
-  "versionCode": 81,
+  "versionCode": 82,
   "versionName": "1.0.91",
-  "changelog": "2.3.13",
+  "changelog": "2.3.14",
   "updatedAt": "2026-11-22",
   "free": {
     "apk": "1.0.91",
-    "versionCode": 81,
+    "versionCode": 82,
     "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/free-v1.0.91/ValidaPagoMovil_v1.0.91-free.apk"
   },
   "beta": {
     "apk": "1.0.91",
-    "versionCode": 81,
+    "versionCode": 82,
     "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/v1.0.91-beta/ValidaPagoMovil_v1.0.91-beta.apk"
   },
   "pro": {
     "apk": "1.0.91",
-    "versionCode": 81,
+    "versionCode": 82,
     "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil/releases/download/pro-v1.0.91/ValidaPagoMovil_v1.0.91-pro.apk"
   }
 }
