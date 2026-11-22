@@ -13,6 +13,10 @@ un repositorio privado.
 | **Gratis** | `free-v1.0.91` | Versión gratuita con anuncios internos y Modo A. |
 | **Pro** | privado | B/C, Suite, webhooks, multi-dispositivo y exportaciones. |
 
+Cada edición tiene su propio nombre en el lanzador: **ValidaPagoMovil Free**,
+**ValidaPagoMovil Beta** y **ValidaPagoMovil Pro**. Free y Beta no se convierten
+en Pro con un archivo `.opmlic`; Pro se instala aparte y se activa con licencia.
+
 ## Descarga directa
 
 - **Beta 1.0.91:** https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/v1.0.91-beta/ValidaPagoMovil_v1.0.91-beta.apk
@@ -62,8 +66,10 @@ Disponible en **Releases** con el tag `free-v1.0.91`:
 
 Incluye captura, libro local, Modo A, 1 dispositivo y 1 destino. Muestra
 **anuncios internos** de ValidaPagoMovil (no hay rastreadores de terceros).
-Puedes quitar los anuncios y desbloquear Pro importando una licencia `.opmlic`
-desde **Ajustes → Licencia**.
+
+La versión Free es un producto independiente y **no se activa con `.opmlic`**.
+Para quitar los anuncios y usar B/C, Suite, webhooks y multi-dispositivo,
+instala **ValidaPagoMovil Pro**.
 
 ## Pro
 
