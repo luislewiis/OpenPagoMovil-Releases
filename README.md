@@ -40,7 +40,7 @@ Descarga desde **Releases**:
   (experimental: `/ref`, `/micierre`, huérfanos).
 - Tasas híbridas BCV USD/EUR, Binance P2P e Inteligente.
 - Temas Azul, Negro total y Blanco.
-- UI de Cobros expandible nativa.
+- UI de Cobros nativa con scroll unico para ver todas las transacciones.
 - **Sin anuncios.**
 - **Licencia beta incluida y firmada** (ECDSA P-256). No tienes que importar
   nada para probarla.
