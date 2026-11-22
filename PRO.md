@@ -49,9 +49,9 @@ No envíes cédulas, tokens de Telegram ni datos de pagos.
 
 ## Qué pasa si la licencia vence
 
-- La app vuelve a la edición gratuita (o bloquea la APK Pro si no hay licencia).
+- La APK Pro se bloquea en la pantalla de activación.
 - El libro local, los backups y la configuración **no se borran**.
-- Puedes importar una licencia nueva sin reinstalar.
+- Puedes importar una licencia nueva sin reinstalar; si no renuevas, usa la APK Free.
 
 ## Seguridad
 
