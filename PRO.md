@@ -37,7 +37,7 @@ No envíes cédulas, tokens de Telegram ni datos de pagos.
 
 ## Activar una licencia `.opmlic`
 
-1. Instala la APK Pro (se entrega por release privado) **o** la APK gratis.
+1. Instala la APK **ValidaPagoMovil Pro** (se entrega por release privado). La APK Free no acepta `.opmlic`.
 2. Abre **Ajustes → Licencia**.
 3. Copia tu **ID de dispositivo** (formato `ABCD-EFGH-IJKL-MNOP`).
 4. Envía ese ID al vendedor.
