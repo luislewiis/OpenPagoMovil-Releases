@@ -28,9 +28,9 @@ en Pro con un archivo `.opmlic`; Pro se instala aparte y se activa con licencia.
 Descarga desde **Releases**:
 
 - `ValidaPagoMovil_v1.0.91-beta.apk`
-- versionCode **81**
-- SHA-256: `8B1D3CB1BB453BAFA0ADC76B61690BCAFA18B04983D949238938BA53D7D00F21`
-- Tamaño: 6.113.547 bytes
+- versionCode **82**
+- SHA-256: `ECCC2D3495C7A27D92E8C19F6936A178BB8CB1F5F3DA4BD3FA3EACBE14ED97E8`
+- Tamaño: 5.934.623 bytes
 
 ### Qué incluye
 
@@ -61,8 +61,8 @@ Descarga desde **Releases**:
 Disponible en **Releases** con el tag `free-v1.0.91`:
 
 - `ValidaPagoMovil_v1.0.91-free.apk`
-- versionCode **81**
-- SHA-256: `C81E4234B313A1FFFC4B49FF559D885099F8CDAAE68F5385EBC98F27AB97B73A`
+- versionCode **82**
+- SHA-256: `4CE01A6B7FFB13EE4EA577AFDF684BB0EDE0E6F3842575CD8CC52AA3185D43B5`
 
 Incluye captura, libro local, Modo A, 1 dispositivo y 1 destino. Muestra
 **anuncios internos** de ValidaPagoMovil (no hay rastreadores de terceros).
