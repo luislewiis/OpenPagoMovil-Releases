@@ -67,11 +67,11 @@ Disponible en **Releases** con el tag `free-v1.0.91`:
 Incluye captura, libro local, Modo A, 1 dispositivo y 1 destino. Muestra
 **anuncios internos** de ValidaPagoMovil (no hay rastreadores de terceros).
 
-- **3 dias gratis** desde la primera apertura.
-- Al terminar, **1 video de recompensa de 15 s = 1 dia** de uso.
-- Los dias se acumulan y se reclaman desde **Ajustes -> Recompensas**.
-- Sin dias activos, la captura y los servicios se detienen hasta reclamar
-  un dia o instalar Pro.
+- **3 días gratis** desde la primera apertura.
+- Al terminar, **1 video de recompensa de 15 s = 1 día** de uso.
+- Los días se acumulan y se reclaman desde **Ajustes → Recompensas**.
+- Sin días activos, la captura y los servicios se detienen hasta reclamar
+  un día o instalar Pro.
 
 La versión Free es un producto independiente y **no se activa con `.opmlic`**.
 Para quitar los anuncios y usar B/C, Suite, webhooks y multi-dispositivo,
