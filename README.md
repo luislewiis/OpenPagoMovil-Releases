@@ -9,8 +9,8 @@ un repositorio privado.
 
 | Canal | Tag | Qué es |
 |---|---|---|
-| **Beta** | `v1.0.91-beta` | Beta pública con licencia firmada, A/B/C y límites. |
-| **Gratis** | `free-v1.0.91` | Versión gratuita con anuncios internos y Modo A. |
+| **Beta** | `v1.0.92-beta` | Beta pública con licencia firmada, A/B/C y límites. |
+| **Gratis** | `free-v1.0.92` | Versión gratuita con anuncios internos y Modo A. |
 | **Pro** | privado | B/C, Suite, webhooks, multi-dispositivo y exportaciones. |
 
 Cada edición tiene su propio nombre en el lanzador: **ValidaPagoMovil Free**,
@@ -19,18 +19,18 @@ en Pro con un archivo `.opmlic`; Pro se instala aparte y se activa con licencia.
 
 ## Descarga directa
 
-- **Beta 1.0.91:** https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/v1.0.91-beta/ValidaPagoMovil_v1.0.91-beta.apk
-- **Gratis 1.0.91:** https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/free-v1.0.91/ValidaPagoMovil_v1.0.91-free.apk
+- **Beta 1.0.92:** https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/v1.0.92-beta/ValidaPagoMovil_v1.0.92-beta.apk
+- **Gratis 1.0.92:** https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/free-v1.0.92/ValidaPagoMovil_v1.0.92-free.apk
 - **Pro:** se entrega por release privado/licencia (ver PRO.md).
 
-## Beta 1.0.91
+## Beta 1.0.92
 
 Descarga desde **Releases**:
 
-- `ValidaPagoMovil_v1.0.91-beta.apk`
-- versionCode **84**
-- SHA-256: `3FE8D8451D669BF5F0A23EBD8A9D776DC19E70CEE53FD684DDB3F83F526CAC3F`
-- Tamaño: 5.967.391 bytes
+- `ValidaPagoMovil_v1.0.92-beta.apk`
+- versionCode **85**
+- SHA-256: `8B8511AB8A5CDDCAC4ADA5084F277D5EE024AD9DD2EED2DD413776924AF4A5DD`
+- Tamaño: 5.859.105 bytes
 
 ### Qué incluye
 
@@ -44,6 +44,9 @@ Descarga desde **Releases**:
 - **Sin anuncios.**
 - **Licencia beta incluida y firmada** (ECDSA P-256). No tienes que importar
   nada para probarla.
+- **Hardening build 85:** Google fail-closed, Telegram solo chat autorizado,
+  servicios detenidos sin licencia/días, updates anti-downgrade y `/verify`
+  sin oráculo para anónimos.
 
 ### Límites de la beta
 
@@ -56,13 +59,14 @@ Descarga desde **Releases**:
 - El límite de 1 dispositivo es local a la instalación. Para una licencia Pro
   atada a tu teléfono se usa el ID de dispositivo (ver `PRO.md`).
 
-## Versión gratis 1.0.91
+## Versión gratis 1.0.92
 
-Disponible en **Releases** con el tag `free-v1.0.91`:
+Disponible en **Releases** con el tag `free-v1.0.92`:
 
-- `ValidaPagoMovil_v1.0.91-free.apk`
-- versionCode **84**
-- SHA-256: `2E224B43683BE3BB4770ADF8028E2E9B55DE017FF5EE8F333E057C4B5692E7B4`
+- `ValidaPagoMovil_v1.0.92-free.apk`
+- versionCode **85**
+- SHA-256: `EF86ABFEF66DA0A01B7335C8584953B23FBD1C770BEE4BE08C200BE75F3798D1`
+- Tamaño: 5.858.549 bytes
 
 Incluye captura, libro local, Modo A, 1 dispositivo y 1 destino. Muestra
 **anuncios internos** de ValidaPagoMovil (no hay rastreadores de terceros).
@@ -72,6 +76,8 @@ Incluye captura, libro local, Modo A, 1 dispositivo y 1 destino. Muestra
 - Los días se acumulan y se reclaman desde **Ajustes → Recompensas**.
 - Sin días activos, la captura y los servicios se detienen hasta reclamar
   un día o instalar Pro.
+- Build 85 añade reloj de confianza, re-bloqueo periódico, reactivación real
+  de servicios y Telegram restringido al chat/grupo configurado.
 
 La versión Free es un producto independiente y **no se activa con `.opmlic`**.
 Para quitar los anuncios y usar B/C, Suite, webhooks y multi-dispositivo,
