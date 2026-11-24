@@ -1,29 +1,38 @@
 {
-  "apk": "1.0.93",
-  "versionCode": 86,
-  "versionName": "1.0.93",
+  "apk": "1.0.94",
+  "versionCode": 87,
+  "versionName": "1.0.94",
   "suite": "1.0.30",
   "backend": "1.0.0",
   "frontend": "1.0.0",
   "broker": "1.0.0",
-  "changelog": "2.3.20",
+  "changelog": "2.3.21",
   "updatedAt": "2026-11-24",
   "free": {
-    "apk": "1.0.93",
-    "versionCode": 86,
-    "sha256": "52096935F4564F8EC84928B0096A779298A8C756744E0FED4CF94438F2C648AA",
-    "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/free-v1.0.93/ValidaPagoMovil_v1.0.93-free.apk"
+    "apk": "1.0.94",
+    "versionCode": 87,
+    "sha256": "6D7B7C22CADD6444187F6720CA99FBF1EDBBA32E0B5711E01B438D132BBEC96C",
+    "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/free-v1.0.94/ValidaPagoMovil_v1.0.94-free.apk"
   },
   "beta": {
-    "apk": "1.0.93",
-    "versionCode": 86,
-    "sha256": "6F268A925261A9847C37790A0F790EC4CFA86C22DF291968B4ADE9DFABCDF470",
-    "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/v1.0.93-beta/ValidaPagoMovil_v1.0.93-beta.apk"
+    "apk": "1.0.94",
+    "versionCode": 87,
+    "sha256": "14542AECE49DBFCAB84062E714EF88098776EE920CD3EA460C0903519DCF5D9F",
+    "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil-Releases/releases/download/v1.0.94-beta/ValidaPagoMovil_v1.0.94-beta.apk"
   },
   "pro": {
-    "apk": "1.0.93",
-    "versionCode": 86,
-    "sha256": "2F966ADB92A7B3AFFC913FCACBA0FC03ED5C930128927A9776FC995282F1C604",
-    "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil/releases/download/pro-v1.0.93/ValidaPagoMovil_v1.0.93-pro.apk"
+    "apk": "1.0.94",
+    "versionCode": 87,
+    "sha256": "2DBADC617B39C13D7F7B5B36CCFE4715ABB610D5CF40CF0B684E0FC2092376E8",
+    "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil/releases/download/pro-v1.0.94/ValidaPagoMovil_v1.0.94-pro.apk"
+  },
+  "play": {
+    "apk": "1.0.94",
+    "versionCode": 87,
+    "applicationId": "com.validapagomovil.app.play",
+    "artifact": "aab",
+    "sha256": "E51610DDBE7709599EE623BFDDF4A00758DF8FF2766B76D240868196D0561FD7",
+    "downloadUrl": "https://github.com/luislewiis/OpenPagoMovil/releases/download/play-v1.0.94/ValidaPagoMovil_v1.0.94-play.aab",
+    "privacyPolicy": "https://luislewiis.github.io/OpenPagoMovil-Releases/PRIVACY_PLAY.html"
   }
 }
